@@ -1,0 +1,96 @@
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.container{
+  text-align: left;
+  margin: 30px auto;
+  width: 350px;
+}
+.income-expense-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  /* box-shadow: var(--box-shadow); */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.income{
+ padding: 20px;
+ color: green;
+}
+.expense{
+  padding: 20px;
+  border-left-style: solid;
+  border-left-color: #f7f7f7;
+  color: red;
+}
+.history-container{
+  margin-top: 20px;
+}
+.history-card-expense{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  margin-top: 20px;
+  height: 50px;
+  border-right: 3px solid red;
+}
+.history-card-income{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  margin-top: 20px;
+  height: 50px;
+  border-right: 3px solid green;
+}
+h4{
+  font-weight: bold;
+}
+.new-expense-container{
+  margin-top: 20px;
+}
+.text-input{
+  margin-top: 20px;
+}
+input{
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  border: 0;
+  box-shadow: var(--box-shadow);
+}
+.expense-button{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #9c88ff;
+  margin-top: 20px;
+  box-shadow: var(--box-shadow);
+  border: 0;
+  font-size: large;
+}

@@ -94,3 +94,20 @@ input{
   border: 0;
   font-size: large;
 }
+/* .delete-btn:focus {
+  outline: 0;
+} */
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+}
